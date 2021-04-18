@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "express.js_notetaker",
+			"path": "."
+		},
+		{
+			"name": "public",
+			"path": "..\\..\\..\\CodingBootcamp\\uncc-cha-fsf-pt-01-2021-u-c\\01-Class-Content\\11-express\\02-Homework\\Develop\\public"
+		},
+		{
+			"name": "node_modules",
+			"path": "..\\..\\..\\CodingBootcamp\\uncc-cha-fsf-pt-01-2021-u-c\\01-Class-Content\\11-express\\02-Homework\\Develop\\node_modules"
+		}
+	],
+	"settings": {}
+}
