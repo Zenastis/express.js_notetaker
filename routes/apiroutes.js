@@ -1,7 +1,7 @@
 
 
 const router = require("express").Router()
-const notes = require("../db/notes.js")
+const notes = require("../db/store.js")
 
 
 
@@ -26,4 +26,4 @@ router.delete ("/notes/:id", (req, res) => {
     .catch ((error) => res.status(500).json(error))
 });
 
-modules.exports = router
+module.exports = router
