@@ -4,7 +4,7 @@
 
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const apiRoutes = require("./routes/apiroutes");
 const htmlRoutes = require("./routes/htmlroutes");
 
@@ -18,4 +18,4 @@ app.use("/", htmlRoutes);
 
 
 
-app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
+app.listen(PORT,"0.0.0.0", () => console.log(`App listening on PORT ${PORT}`));
